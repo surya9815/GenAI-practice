@@ -69,9 +69,6 @@ flowchart TD
 - Keep prompt templates small and include context window checks.  
 - Add rate-limiting & cache for repeated video requests.
 
-Feel free to tell me which diagram format (ASCII, mermaid, SVG) you prefer or if you want the README tailored with commands and example code snippets.
-
-
 
 
 youtube -> transcript (YT API)-> chunks and store in vector store -> then Retrival -> Augmentation -> Generation
