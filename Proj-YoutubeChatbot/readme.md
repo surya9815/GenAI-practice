@@ -26,7 +26,7 @@ A lightweight chatbot that answers questions about YouTube videos by transcribin
 8. Logging, analytics, tests, deployment
 
 ## Plan of action — diagram
-```mermaid
+
 flowchart TD
     A[User input: video URL / query] --> B[Ingest & Metadata Extraction]
     B --> C{Captions available?}
@@ -42,7 +42,7 @@ flowchart TD
     K --> L[Return answer + follow-ups to user]
     L --> M[Store session & analytics]
     M --> H[Optional: update vector store]
-```
+
 
 ## Milestones & estimates
 - Week 1: Scaffolding, basic ingestion, captions extraction (2–3 days)  
