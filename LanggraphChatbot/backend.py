@@ -22,6 +22,7 @@ llm = HuggingFaceEndpoint(
 )
 
 model = ChatHuggingFace(llm = llm)
+CONFIG = {'configurable':{'thread_id':'thread-1'}}
 
 class ChatState(TypedDict):
     messages: Annotated[list[BaseMessage],add_messages]
@@ -40,4 +41,7 @@ graph.add_edge(START,'chat_node')
 graph.add_edge('chat_node',END)
 
 chatbot = graph.compile(checkpointer=checkpointer)
+
+
+
 
