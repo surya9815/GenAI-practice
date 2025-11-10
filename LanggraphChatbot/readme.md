@@ -59,6 +59,6 @@ graph TD
   E --> I[External APIs]
   F --> J[LangSmith for Observability]
 
-
+streamlit run frontend.py 
 
 MIT License © 2025 Suryansh Thakur
