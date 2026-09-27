@@ -2,7 +2,7 @@
 .lvenev
 lvenev/
 
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized /all DLL files
 __pycache__/
 *__pycache__/
 *.py[codz]
